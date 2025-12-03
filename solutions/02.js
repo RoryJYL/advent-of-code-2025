@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 
 function solution1() {
-  const input = readFileSync("input/2.txt", "utf8");
+  const input = readFileSync("../input/2.txt", "utf8");
   const intervals = input.split(",");
 
   let res = 0;
@@ -26,7 +26,7 @@ function solution1() {
 }
 
 function solution2() {
-  const input = readFileSync("input/2.txt", "utf8");
+  const input = readFileSync("../input/2.txt", "utf8");
   const intervals = input.split(",");
 
   let res = 0;
