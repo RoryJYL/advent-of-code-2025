@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 const MAX = 100;
 
 function solution1() {
-  const input = readFileSync("../input/1.txt", "utf8");
+  const input = readFileSync("../input/01.txt", "utf8");
   const lines = input.split("\n");
   let cur = 50;
   let res = 0;
@@ -25,7 +25,7 @@ function solution1() {
 }
 
 function solution2() {
-  const input = readFileSync("../input/1.txt", "utf8");
+  const input = readFileSync("../input/01.txt", "utf8");
   const lines = input.split("\n");
   let cur = 50;
   let res = 0;
